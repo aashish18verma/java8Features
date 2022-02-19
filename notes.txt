@@ -1,0 +1,37 @@
+features in java 8
+=====================================
+1. interface enhancements
+2. functional interface
+3. lambda expression
+4. stream api
+5. date and time api
+======================================
+1. interface enhancements =
+a. default methods = supports backward compatibility
+       - there can be more than one default methods
+       - it is available inside implementing class
+       - default method helps in bringing backward compatibility
+b. static methods =
+       - there can be multiple static method in interface
+       - not available in the implementing class
+       - static method can be called by interface name
+       - helps in achieving backward compatibility
+
+c. functional interface
+        -an interface having only one abstract method
+        - any number of default and static method allowed
+d. Lambda expression
+        -OOP -> Programming should follow oop principle
+        -functional programing - it should be in clear manner and lesser boilerPlate code
+e. predicates
+    - predefined functional interfaces that return boolean value
+f. double colon operator
+    - can be used as an alternative to lambda expressions
+    - method reference -instance and static method
+     -constructor reference
+g. streams
+    - helps to operate on collections
+    - distinct function removes duplicates  and becomes unique
+h. java8 date time api
+    -In java7 date time api was not efficient
+    -n java8 new date time api was introduced  which is also called joda date time api
